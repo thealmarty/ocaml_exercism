@@ -1,0 +1,13 @@
+Comment on Aug 30 2018
+
+I think this a lot better, but can still be improved.
+
+There's quite a lot here, but I think you can address these points one by one, and I can give you a hand if you have any specific questions.
+
+compare_string_binary is not taking strings now, and is not exactly comparing, it's computing a distance. So it should be renamed.
+
+distance is not tail recursive. This means it will fail with a stack overflow on large inputs.
+
+You don't need the type annotations on line 17 or 19. Ocaml has pretty good type inference and will figure out the types for you (and they are anyway specified in the mli file).
+
+Line 18 checks the lengths of the lists. For linked lists this takes time proportional to the length of the list, so it'd likely be faster if you can avoid making these calls.
