@@ -1,0 +1,6 @@
+2018-08-30T20:15:44+00:00 lablab#01 I: Start test leap tests:0:year not divisible by 4: common year.
+2018-08-30T20:15:44+00:00 lablab#01 I: Test leap tests:0:year not divisible by 4: common year is successful.
+2018-08-30T20:15:44+00:00 lablab#01 I: End test leap tests:0:year not divisible by 4: common year.
+2018-08-30T20:15:44+00:00 lablab#01 I: Start test leap tests:2:year divisible by 100, not divisible by 400: common year.
+2018-08-30T20:15:44+00:00 lablab#01 I: Test leap tests:2:year divisible by 100, not divisible by 400: common year is successful.
+2018-08-30T20:15:44+00:00 lablab#01 I: End test leap tests:2:year divisible by 100, not divisible by 400: common year.

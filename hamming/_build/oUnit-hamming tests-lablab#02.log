@@ -1,0 +1,15 @@
+2018-08-30T18:55:10+00:00 lablab#02 I: Start test hamming tests:1:identical strands.
+2018-08-30T18:55:10+00:00 lablab#02 I: Test hamming tests:1:identical strands is successful.
+2018-08-30T18:55:10+00:00 lablab#02 I: End test hamming tests:1:identical strands.
+2018-08-30T18:55:10+00:00 lablab#02 I: Start test hamming tests:3:complete distance in single nucleotide strands.
+2018-08-30T18:55:10+00:00 lablab#02 I: Test hamming tests:3:complete distance in single nucleotide strands is successful.
+2018-08-30T18:55:10+00:00 lablab#02 I: End test hamming tests:3:complete distance in single nucleotide strands.
+2018-08-30T18:55:10+00:00 lablab#02 I: Start test hamming tests:5:small distance in small strands.
+2018-08-30T18:55:10+00:00 lablab#02 I: Test hamming tests:5:small distance in small strands is successful.
+2018-08-30T18:55:10+00:00 lablab#02 I: End test hamming tests:5:small distance in small strands.
+2018-08-30T18:55:10+00:00 lablab#02 I: Start test hamming tests:6:small distance.
+2018-08-30T18:55:10+00:00 lablab#02 I: Test hamming tests:6:small distance is successful.
+2018-08-30T18:55:10+00:00 lablab#02 I: End test hamming tests:6:small distance.
+2018-08-30T18:55:10+00:00 lablab#02 I: Start test hamming tests:9:non-unique character in second strand.
+2018-08-30T18:55:10+00:00 lablab#02 I: Test hamming tests:9:non-unique character in second strand is successful.
+2018-08-30T18:55:10+00:00 lablab#02 I: End test hamming tests:9:non-unique character in second strand.

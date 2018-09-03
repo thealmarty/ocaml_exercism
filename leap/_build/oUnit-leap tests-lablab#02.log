@@ -1,0 +1,6 @@
+2018-08-30T20:15:44+00:00 lablab#02 I: Start test leap tests:1:year divisible by 4, not divisible by 100: leap year.
+2018-08-30T20:15:44+00:00 lablab#02 I: Test leap tests:1:year divisible by 4, not divisible by 100: leap year is successful.
+2018-08-30T20:15:44+00:00 lablab#02 I: End test leap tests:1:year divisible by 4, not divisible by 100: leap year.
+2018-08-30T20:15:44+00:00 lablab#02 I: Start test leap tests:3:year divisible by 400: leap year.
+2018-08-30T20:15:44+00:00 lablab#02 I: Test leap tests:3:year divisible by 400: leap year is successful.
+2018-08-30T20:15:44+00:00 lablab#02 I: End test leap tests:3:year divisible by 400: leap year.

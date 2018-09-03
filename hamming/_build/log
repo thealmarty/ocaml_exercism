@@ -1,0 +1,17 @@
+# jbuilder runtest
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dune9964f7.output
+$ /home/martina/.opam/todolist/bin/ocamlc.opt -config > /tmp/dune6a8bc5.output
+$ (cd _build/default && /home/martina/.opam/todolist/bin/ocamldep.opt -modules -impl hamming.ml) > _build/default/.test.eobjs/hamming.ml.d
+$ (cd _build/default && /home/martina/.opam/todolist/bin/ocamldep.opt -modules -impl hamming_map2.ml) > _build/default/.test.eobjs/hamming_map2.ml.d
+$ (cd _build/default && /home/martina/.opam/todolist/bin/ocamldep.opt -modules -impl test.ml) > _build/default/.test.eobjs/test.ml.d
+$ (cd _build/default && /home/martina/.opam/todolist/bin/ocamldep.opt -modules -intf hamming.mli) > _build/default/.test.eobjs/hamming.mli.d
+$ (cd _build/default && /home/martina/.opam/todolist/bin/ocamlc.opt -w -40 -g -bin-annot -I .test.eobjs -I /home/martina/.opam/todolist/lib/base -I /home/martina/.opam/todolist/lib/base/caml -I /home/martina/.opam/todolist/lib/base/shadow_stdlib -I /home/martina/.opam/todolist/lib/bytes -I /home/martina/.opam/todolist/lib/oUnit -I /home/martina/.opam/todolist/lib/sexplib0 -no-alias-deps -o .test.eobjs/hamming.cmi -c -intf hamming.mli)
+$ (cd _build/default && /home/martina/.opam/todolist/bin/ocamlc.opt -w -40 -g -bin-annot -I .test.eobjs -I /home/martina/.opam/todolist/lib/base -I /home/martina/.opam/todolist/lib/base/caml -I /home/martina/.opam/todolist/lib/base/shadow_stdlib -I /home/martina/.opam/todolist/lib/bytes -I /home/martina/.opam/todolist/lib/oUnit -I /home/martina/.opam/todolist/lib/sexplib0 -no-alias-deps -o .test.eobjs/test.cmo -c -impl test.ml)
+$ (cd _build/default && /home/martina/.opam/todolist/bin/ocamlopt.opt -w -40 -g -I .test.eobjs -I /home/martina/.opam/todolist/lib/base -I /home/martina/.opam/todolist/lib/base/caml -I /home/martina/.opam/todolist/lib/base/shadow_stdlib -I /home/martina/.opam/todolist/lib/bytes -I /home/martina/.opam/todolist/lib/oUnit -I /home/martina/.opam/todolist/lib/sexplib0 -no-alias-deps -o .test.eobjs/hamming.cmx -c -impl hamming.ml)
+$ (cd _build/default && /home/martina/.opam/todolist/bin/ocamlopt.opt -w -40 -g -I .test.eobjs -I /home/martina/.opam/todolist/lib/base -I /home/martina/.opam/todolist/lib/base/caml -I /home/martina/.opam/todolist/lib/base/shadow_stdlib -I /home/martina/.opam/todolist/lib/bytes -I /home/martina/.opam/todolist/lib/oUnit -I /home/martina/.opam/todolist/lib/sexplib0 -intf-suffix .ml -no-alias-deps -o .test.eobjs/test.cmx -c -impl test.ml)
+$ (cd _build/default && /home/martina/.opam/todolist/bin/ocamlopt.opt -w -40 -g -o test.exe -I /home/martina/.opam/todolist/lib/base -I /home/martina/.opam/todolist/lib/base/caml -I /home/martina/.opam/todolist/lib/base/shadow_stdlib -I /home/martina/.opam/todolist/lib/bytes -I /home/martina/.opam/todolist/lib/oUnit -I /home/martina/.opam/todolist/lib/sexplib0 /home/martina/.opam/todolist/lib/base/caml/caml.cmxa /home/martina/.opam/todolist/lib/base/shadow_stdlib/shadow_stdlib.cmxa /home/martina/.opam/todolist/lib/sexplib0/sexplib0.cmxa /home/martina/.opam/todolist/lib/base/base.cmxa /home/martina/.opam/todolist/lib/ocaml/unix.cmxa /home/martina/.opam/todolist/lib/oUnit/oUnitAdvanced.cmxa /home/martina/.opam/todolist/lib/oUnit/oUnit.cmxa .test.eobjs/hamming.cmx .test.eobjs/test.cmx)
+$ (cd _build/default && ./test.exe)
+> ...............
+> Ran: 15 tests in: 0.12 seconds.
+> OK

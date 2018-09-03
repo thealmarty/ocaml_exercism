@@ -1,0 +1,27 @@
+2018-09-03T16:39:09+00:00 lablab#02 I: Start test raindrops tests:1:the sound for 3 is Pling.
+2018-09-03T16:39:09+00:00 lablab#02 I: Test raindrops tests:1:the sound for 3 is Pling is successful.
+2018-09-03T16:39:09+00:00 lablab#02 I: End test raindrops tests:1:the sound for 3 is Pling.
+2018-09-03T16:39:09+00:00 lablab#02 I: Start test raindrops tests:2:the sound for 5 is Plang.
+2018-09-03T16:39:09+00:00 lablab#02 I: Test raindrops tests:2:the sound for 5 is Plang is successful.
+2018-09-03T16:39:09+00:00 lablab#02 I: End test raindrops tests:2:the sound for 5 is Plang.
+2018-09-03T16:39:09+00:00 lablab#02 I: Start test raindrops tests:4:the sound for 6 is Pling as it has a factor 3.
+2018-09-03T16:39:09+00:00 lablab#02 I: Test raindrops tests:4:the sound for 6 is Pling as it has a factor 3 is successful.
+2018-09-03T16:39:09+00:00 lablab#02 I: End test raindrops tests:4:the sound for 6 is Pling as it has a factor 3.
+2018-09-03T16:39:09+00:00 lablab#02 I: Start test raindrops tests:6:the sound for 9 is Pling as it has a factor 3.
+2018-09-03T16:39:09+00:00 lablab#02 I: Test raindrops tests:6:the sound for 9 is Pling as it has a factor 3 is successful.
+2018-09-03T16:39:09+00:00 lablab#02 I: End test raindrops tests:6:the sound for 9 is Pling as it has a factor 3.
+2018-09-03T16:39:09+00:00 lablab#02 I: Start test raindrops tests:7:the sound for 10 is Plang as it has a factor 5.
+2018-09-03T16:39:09+00:00 lablab#02 I: Test raindrops tests:7:the sound for 10 is Plang as it has a factor 5 is successful.
+2018-09-03T16:39:09+00:00 lablab#02 I: End test raindrops tests:7:the sound for 10 is Plang as it has a factor 5.
+2018-09-03T16:39:09+00:00 lablab#02 I: Start test raindrops tests:9:the sound for 15 is PlingPlang as it has factors 3 and 5.
+2018-09-03T16:39:09+00:00 lablab#02 I: Test raindrops tests:9:the sound for 15 is PlingPlang as it has factors 3 and 5 is successful.
+2018-09-03T16:39:09+00:00 lablab#02 I: End test raindrops tests:9:the sound for 15 is PlingPlang as it has factors 3 and 5.
+2018-09-03T16:39:09+00:00 lablab#02 I: Start test raindrops tests:11:the sound for 25 is Plang as it has a factor 5.
+2018-09-03T16:39:09+00:00 lablab#02 I: Test raindrops tests:11:the sound for 25 is Plang as it has a factor 5 is successful.
+2018-09-03T16:39:09+00:00 lablab#02 I: End test raindrops tests:11:the sound for 25 is Plang as it has a factor 5.
+2018-09-03T16:39:09+00:00 lablab#02 I: Start test raindrops tests:13:the sound for 35 is PlangPlong as it has factors 5 and 7.
+2018-09-03T16:39:09+00:00 lablab#02 I: Test raindrops tests:13:the sound for 35 is PlangPlong as it has factors 5 and 7 is successful.
+2018-09-03T16:39:09+00:00 lablab#02 I: End test raindrops tests:13:the sound for 35 is PlangPlong as it has factors 5 and 7.
+2018-09-03T16:39:09+00:00 lablab#02 I: Start test raindrops tests:15:the sound for 52 is 52.
+2018-09-03T16:39:09+00:00 lablab#02 I: Test raindrops tests:15:the sound for 52 is 52 is successful.
+2018-09-03T16:39:09+00:00 lablab#02 I: End test raindrops tests:15:the sound for 52 is 52.

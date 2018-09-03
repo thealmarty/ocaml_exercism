@@ -1,0 +1,17 @@
+B /home/martina/.opam/todolist/lib/base
+B /home/martina/.opam/todolist/lib/base/caml
+B /home/martina/.opam/todolist/lib/base/shadow_stdlib
+B /home/martina/.opam/todolist/lib/bytes
+B /home/martina/.opam/todolist/lib/oUnit
+B /home/martina/.opam/todolist/lib/ocaml
+B /home/martina/.opam/todolist/lib/sexplib0
+B _build/default/.test.eobjs
+S /home/martina/.opam/todolist/lib/base
+S /home/martina/.opam/todolist/lib/base/caml
+S /home/martina/.opam/todolist/lib/base/shadow_stdlib
+S /home/martina/.opam/todolist/lib/bytes
+S /home/martina/.opam/todolist/lib/oUnit
+S /home/martina/.opam/todolist/lib/ocaml
+S /home/martina/.opam/todolist/lib/sexplib0
+S .
+FLG -w -40
