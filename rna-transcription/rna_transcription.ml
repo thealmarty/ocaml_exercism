@@ -9,9 +9,6 @@ let convert dna =
     | `T -> `A
 
 (** Transcribe DNA to RNA by replacing 'T' with 'U'. *)
-let rec to_rna dnalist =
-  match dnalist with
-    | hd :: tl -> convert hd :: to_rna tl
-    |_ -> []
-
+let to_rna dnalist =
+  List.map convert dnalist
         
